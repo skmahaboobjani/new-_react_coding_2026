@@ -1,0 +1,88 @@
+Final React Interview Coding Questions (Priority Order)
+1️⃣ Basic State Questions
+Counter App (increment / decrement / reset)
+Toggle Button (show / hide)
+Show / Hide Password
+Character Counter
+Random Color Generator
+
+Concepts
+
+useState
+event handling
+2️⃣ List & State Questions
+Todo App (Add / Delete)
+Todo App (Complete Toggle)
+Todo Filter (Completed / Active)
+Add / Remove Item from List
+Search Filter List
+
+Concepts
+
+map
+filter
+state updates
+3️⃣ Form Questions
+Login Form Validation
+Signup Form Validation
+Controlled Inputs
+Multi Step Form
+Dynamic Form Fields
+
+Concepts
+
+form handling
+object state
+4️⃣ API Questions
+Fetch API and Display Data
+Loading Spinner
+Error Handling UI
+Search API
+Pagination with API
+
+Concepts
+
+useEffect
+async / await
+5️⃣ UI Components (Very Important)
+Tabs Component
+Accordion Component
+Modal Popup
+Star Rating Component
+Progress Bar
+6️⃣ Machine Coding (Most Asked)
+Debounce Search Input
+Autocomplete Search
+Infinite Scroll
+Image Carousel / Slider
+Pagination Component
+⭐ MOST IMPORTANT (Do These First)
+
+If time is less, practice these 10:
+
+Todo App
+Tabs Component
+Accordion
+Modal Popup
+Pagination
+Debounce Search
+Autocomplete Search
+Infinite Scroll
+Star Rating
+API Fetch List
+React Hooks You Must Know
+useState
+useEffect
+useRef
+useReducer
+useContext
+Final Advice for Your 10 Days
+
+Daily do:
+
+2 coding questions
+1 revision
+
+In 10 days you can complete ~25 problems, which is enough for React interview rounds.
+
+If you want, I can also give you the 10 React coding questions Sharp companies ask in machine coding rounds (these are harder but very important).
