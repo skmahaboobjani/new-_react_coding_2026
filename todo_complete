@@ -1,0 +1,51 @@
+import React, { useState } from "react";
+function App() {
+  const [inp, setinp] = useState("");
+  const [data, setdata] = useState([]);
+  const [edit, setedit] = useState(null);
+
+  // let handel = () => {
+  //   setdata([...data, inp]);
+  //   setinp("");
+  // };
+
+  let handel = () => {
+    if (edit != null) {
+      let updated = [...data];
+      updated[edit] = inp;
+      setdata(updated);
+      setedit(null);
+    } else {
+      setdata([...data, inp]);
+    }
+    setinp("");
+  };
+
+  let update = (index) => {
+    setinp(data[index]);
+    setedit(index);
+  };
+
+  let remove = (index) => {
+    setdata(data.filter((a, m) => m != index));
+  };
+  return (
+    <div>
+      <h1>to do app</h1>
+      <input
+        type={"text"}
+        value={inp}
+        onChange={(e) => setinp(e.target.value)}
+      />
+      <button onClick={handel}>{edit !== null ? "save" : "add"}</button>
+      {data.map((x, index) => (
+        <li key={index}>
+          {x}
+          <button onClick={() => update(index)}>update</button>
+          <button onClick={() => remove(index)}>delete</button>
+        </li>
+      ))}
+    </div>
+  );
+}
+export default App;
