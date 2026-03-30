@@ -1,0 +1,126 @@
+1. Todo App (Basic → Advanced)
+Add task
+Delete task
+Edit + Save (you just did 🔥)
+Mark as completed
+Filter (All / Completed / Pending)
+
+👉 Interviewer checks:
+
+useState
+list rendering
+state updates
+2. Counter App Variations
+Increment / Decrement
+Reset
+Step counter (increase by 5, 10)
+
+👉 Checks:
+
+state logic
+event handling
+3. Form Handling App
+Input fields (name, email, password)
+Show submitted data
+Basic validation
+
+👉 Checks:
+
+controlled components
+4. Show/Hide Password Toggle
+Eye icon toggle password
+
+👉 Very common small task
+
+5. Search Filter
+List of names
+Filter as user types
+
+👉 Checks:
+
+array filtering
+real-time UI updates
+🟡 Intermediate Level (MOST ASKED)
+6. Debounced Search (🔥 important)
+Search input
+API call after delay (500ms)
+
+👉 Checks:
+
+useEffect
+debounce logic
+7. Pagination UI
+Show 10 items per page
+Next / Prev buttons
+
+👉 Checks:
+
+slicing array
+UI logic
+8. Modal / Popup Component
+Open / Close modal
+Click outside to close
+
+👉 Checks:
+
+conditional rendering
+9. Accordion (FAQ UI)
+Expand / collapse items
+
+👉 Checks:
+
+state per item
+10. Tabs Component
+Switch between tabs
+
+👉 Very common UI question
+
+🔴 Advanced Level (FAANG / Product Companies)
+11. Infinite Scroll
+Load more data on scroll
+
+👉 Checks:
+
+scroll events
+performance
+12. Drag and Drop List
+Reorder items
+
+👉 Use:
+
+react-beautiful-dnd
+13. Autocomplete / Typeahead
+Suggestions while typing
+
+👉 Combines:
+
+search + API + dropdown
+14. Multi-step Form (🔥 important)
+Step 1 → Step 2 → Step 3
+Next / Back
+
+👉 Checks:
+
+state management
+form handling
+15. Shopping Cart System
+Add to cart
+Remove
+Total price
+
+👉 Checks:
+
+real-world logic
+💥 Bonus (VERY HIGH VALUE)
+16. Theme Switcher (Dark/Light)
+Toggle theme
+17. Stopwatch / Timer
+Start / Stop / Reset
+18. File Upload UI
+Show file name
+Preview image
+19. Kanban Board (Trello Clone)
+Drag tasks between columns
+20. Form Builder (🔥 YOU WANT THIS)
+Drag fields
+Preview form
